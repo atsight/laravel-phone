@@ -1,7 +1,7 @@
 {
-    "name": "ellisio/laravel-phone",
-    "description": "A phone validator for Laravel using the free Twilio phone lookup service.",
-    "homepage": "https://github.com/ellisio/laravel-phone",
+    "name": "atsight/laravel-phone",
+    "description": "A phone validator for Laravel using the free Twilio phone lookup service. This fork supports Laravel 8.8",
+    "homepage": "https://github.com/atsight/laravel-phone",
     "license": "MIT",
     "keywords": [
         "laravel",
@@ -22,10 +22,10 @@
     ],
     "require": {
         "php": ">=7.2.5",
-        "illuminate/contracts": "^6.0|^7.0",
-        "illuminate/container": "^6.0|^7.0",
-        "illuminate/support": "^6.0|^7.0",
-        "illuminate/validation": "^6.0|^7.0",
+        "illuminate/contracts": "^6.0|^7.0|8.0",
+        "illuminate/container": "^6.0|^7.0|8.0",
+        "illuminate/support": "^6.0|^7.0|8.0",
+        "illuminate/validation": "^6.0|^7.0|8.0",
         "twilio/sdk": "^6.0"
     },
     "require-dev": {
